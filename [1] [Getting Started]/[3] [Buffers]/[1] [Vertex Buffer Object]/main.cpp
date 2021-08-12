@@ -6,7 +6,7 @@ float vertices[] =
 { 
 	/* Position */
 	-0.5f, -0.5f, 0.0f, // Bottom Left      /\
-	 0.5f, -0.5f, 0.0f, // Bottom Right	   /  \
+	 0.5f, -0.5f, 0.0f, // Bottom Right    /  \
 	 0.0f,  0.5f, 0.0f, // Up Center      /____\
 };
 
