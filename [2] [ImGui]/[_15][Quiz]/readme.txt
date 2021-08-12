@@ -1,7 +1,7 @@
 Hello there wassup !
 
 Our today's quiz is about ImGui:
-to understand the quiz it should better for you to watch the video from udemy.
+to understand the quiz it should be better for you to watch the video from udemy.
 
 Quiz: make 3 Checkboxes that works togather for "fragmentShader.glsl" 
 the Checkboxes are in arrow like this-> :  1-Container 2-Face 3-Color
