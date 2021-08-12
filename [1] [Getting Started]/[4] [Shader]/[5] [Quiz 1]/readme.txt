@@ -5,3 +5,5 @@ you need to set a uniform in fragmentShader and give (sin or cos) value between 
 "ourColor" (Color Attribute of the shape).
 
 like this-> : FragColor = vec4(ourColor * myUniform, 1.0f);
+
+NOTE: All sides (Vertices)'s color should be change with sin or cos value only one of them.
