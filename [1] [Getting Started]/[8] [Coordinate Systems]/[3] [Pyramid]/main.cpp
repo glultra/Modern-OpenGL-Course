@@ -17,14 +17,19 @@
 #define MAPSIZE_Y 10
 #define MAPSIZE_Z 10
 
-/*
-                  /|\
-		 / | \
-		/  |  \
-	       /  /|\  \
-	       \/  |  \/
-	        \  |  /
-		  \|/
+/*	We wil Draw a pyramid like this with 4 triangle and 1 rectangle
+			   /|\
+			  / | \
+			 /  |  \
+			/   |   \
+		       /    |    \
+		      /     |     \
+		     /     / \     \
+		    /    /     \    \
+		   /   /         \   \
+		  /  /             \  \
+		 / /                 \ \
+		 /_____________________\
 */
 
 float vertices[] =
