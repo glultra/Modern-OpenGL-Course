@@ -17,33 +17,41 @@
 #define MAPSIZE_Y 10
 #define MAPSIZE_Z 10
 
+/*
+                  /|\
+		 / | \
+		/  |  \
+	       /  /|\  \
+	       \/  |  \/
+	        \  |  /
+		  \|/
+*/
+
 float vertices[] =
 {
-	/* Bottom Position */	/* Color */				/* TexCoords */
+	/* Bottom Position */		/* Color */			/* TexCoords */
 	-0.5f,-0.5f,-0.5f,		1.0f, 0.0f, 0.0f,		0.0f, 0.0f,
 	 0.5f,-0.5f,-0.5f,		0.0f, 1.0f, 0.0f,		1.0f, 0.0f,
 	 0.5f, 0.5f,-0.5f,		0.0f, 0.0f, 1.0f,		1.0f, 1.0f,
 	 0.5f, 0.5f,-0.5f,		0.0f, 0.0f, 1.0f,		1.0f, 1.0f,
 	-0.5f, 0.5f,-0.5f,		1.0f, 1.0f, 0.0f,		0.0f, 1.0f,
 	-0.5f,-0.5f,-0.5f,		1.0f, 0.0f, 0.0f,		0.0f, 0.0f,
-	/* Front Position */	/* Color */				/* TexCoords */
+	/* Front Position */		/* Color */			/* TexCoords */
 	-0.5f,-0.5f,-0.5f,		1.0f, 0.0f, 0.0f,		0.0f, 0.0f,
 	 0.5f,-0.5f,-0.5f,		0.0f, 1.0f, 0.0f,		1.0f, 0.0f,
 	 0.0f, 0.0f, 0.5f,		0.0f, 0.0f, 1.0f,		0.5f, 1.0f,
-	 /* Back Position */ 	/* Color */				/* TexCoords */
-	 -0.5f, 0.5f,-0.5f,		1.0f, 0.0f, 0.0f,		0.0f, 0.0f,
-	  0.5f, 0.5f,-0.5f,		0.0f, 1.0f, 0.0f,		1.0f, 0.0f,
-	  0.0f, 0.0f, 0.5f,		0.0f, 0.0f, 1.0f,		0.5f, 1.0f,
-	  /* Left Position */ 	/* Color */				/* TexCoords */
-	  -0.5f,-0.5f,-0.5f,		1.0f, 0.0f, 0.0f,		0.0f, 0.0f,
-	  -0.5f, 0.5f,-0.5f,		0.0f, 1.0f, 0.0f,		1.0f, 0.0f,
-	   0.0f, 0.0f, 0.5f,		0.0f, 0.0f, 1.0f,		0.5f, 1.0f,
-	   /* Right Position */ 	/* Color */				/* TexCoords */
-		0.5f,-0.5f,-0.5f,		1.0f, 0.0f, 0.0f,		0.0f, 0.0f,
-		0.5f, 0.5f,-0.5f,		0.0f, 1.0f, 0.0f,		1.0f, 0.0f,
-		0.0f, 0.0f, 0.5f,		0.0f, 0.0f, 1.0f,		0.5f, 1.0f,
-
-
+	/* Back Position */ 		/* Color */			/* TexCoords */
+	-0.5f, 0.5f,-0.5f,		1.0f, 0.0f, 0.0f,		0.0f, 0.0f,
+	 0.5f, 0.5f,-0.5f,		0.0f, 1.0f, 0.0f,		1.0f, 0.0f,
+	 0.0f, 0.0f, 0.5f,		0.0f, 0.0f, 1.0f,		0.5f, 1.0f,
+	/* Left Position */ 		/* Color */			/* TexCoords */
+	-0.5f,-0.5f,-0.5f,		1.0f, 0.0f, 0.0f,		0.0f, 0.0f,
+	-0.5f, 0.5f,-0.5f,		0.0f, 1.0f, 0.0f,		1.0f, 0.0f,
+	 0.0f, 0.0f, 0.5f,		0.0f, 0.0f, 1.0f,		0.5f, 1.0f,
+	/* Right Position */ 		/* Color */			/* TexCoords */
+	 0.5f,-0.5f,-0.5f,		1.0f, 0.0f, 0.0f,		0.0f, 0.0f,
+	 0.5f, 0.5f,-0.5f,		0.0f, 1.0f, 0.0f,		1.0f, 0.0f,
+	 0.0f, 0.0f, 0.5f,		0.0f, 0.0f, 1.0f,		0.5f, 1.0f,
 };
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height); // Protype
