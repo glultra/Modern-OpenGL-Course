@@ -1,4 +1,0 @@
-﻿LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
-LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
-glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'D:\OpenGL Course\Getting Started\Classic OpenGL\x64\Debug\vc120.pdb'; linking object as if no debug info
-  opengl course.vcxproj -> D:\OpenGL Course\Getting Started\Classic OpenGL\x64\Debug\opengl course.exe
