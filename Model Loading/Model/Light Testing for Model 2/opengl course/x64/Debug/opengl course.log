@@ -1,0 +1,31 @@
+﻿  main.cpp
+D:\OpenGL Course\Model Loading\Model\Light Testing for Model 2\opengl course\src\Mesh.hpp(60,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\OpenGL Course\Model Loading\Model\Light Testing for Model 2\opengl course\src\Mesh.hpp(68,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+D:\OpenGL Course\Model Loading\Model\Light Testing for Model 2\opengl course\src\Model.hpp(62,21): warning C4018: '<': signed/unsigned mismatch
+D:\OpenGL Course\Model Loading\Model\Light Testing for Model 2\opengl course\src\Model.hpp(69,21): warning C4018: '<': signed/unsigned mismatch
+D:\OpenGL Course\Model Loading\Model\Light Testing for Model 2\opengl course\src\Model.hpp(83,21): warning C4018: '<': signed/unsigned mismatch
+D:\OpenGL Course\Model Loading\Model\Light Testing for Model 2\opengl course\src\Model.hpp(122,21): warning C4018: '<': signed/unsigned mismatch
+D:\OpenGL Course\Model Loading\Model\Light Testing for Model 2\opengl course\src\Model.hpp(126,22): warning C4018: '<': signed/unsigned mismatch
+D:\OpenGL Course\Model Loading\Model\Light Testing for Model 2\opengl course\src\Model.hpp(148,21): warning C4018: '<': signed/unsigned mismatch
+D:\OpenGL Course\Model Loading\Model\Light Testing for Model 2\opengl course\main.cpp(240,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\OpenGL Course\Model Loading\Model\Light Testing for Model 2\opengl course\main.cpp(354,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\OpenGL Course\Model Loading\Model\Light Testing for Model 2\opengl course\main.cpp(355,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\OpenGL Course\Model Loading\Model\Light Testing for Model 2\opengl course\main.cpp(359,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\OpenGL Course\Model Loading\Model\Light Testing for Model 2\opengl course\main.cpp(360,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\OpenGL Course\Model Loading\Model\Light Testing for Model 2\opengl course\main.cpp(361,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\OpenGL Course\Model Loading\Model\Light Testing for Model 2\opengl course\main.cpp(362,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\OpenGL Course\Model Loading\Model\Light Testing for Model 2\opengl course\main.cpp(370,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Shader.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_glfw.cpp
+  imgui_impl_opengl3.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  stb_image.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'D:\OpenGL Course\Model Loading\Model\Light Testing for Model 2\x64\Debug\vc120.pdb'; linking object as if no debug info
+  opengl course.vcxproj -> D:\OpenGL Course\Model Loading\Model\Light Testing for Model 2\x64\Debug\opengl course.exe
