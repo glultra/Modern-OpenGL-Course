@@ -249,7 +249,7 @@ int main()
 		glDrawArrays(GL_TRIANGLES, 0, 36);
 
 		// Render your GUI
-		ImGui::Begin("Its My First GUI"); // Note: it's better not to use ' (quotes) inside the doble quotes
+		ImGui::Begin("Its My First GUI"); // Note: it's better not to use ' (quotes) inside the double quotes
 		ImGui::Text("Hello ppl wassup");
 		ImGui::End();
 
