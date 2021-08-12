@@ -3,7 +3,7 @@
 #include <iostream>
 #include <cmath>
 
-// Note we included src file so we don't need to say src/Shader.h ,btw you can do it you won't have any problem :)
+// Note we included src file so we don't need to say src/Shader.h ,btw you can do it you won't have any issue:)
 #include "Shader.h"
 #include "Camera.hpp"
 
