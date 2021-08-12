@@ -5,13 +5,13 @@
 float vertices[] = 
 { 
 	/* Position */
-	-0.5f, -0.5f, 0.0f, // Bottom Left
-	 0.5f, -0.5f, 0.0f, // Bottom Right
-	 0.5f,  0.5f, 0.0f, // Up Right
+	-0.5f, -0.5f, 0.0f, // Bottom Left	  /|
+	 0.5f, -0.5f, 0.0f, // Bottom Right	 / |
+	 0.5f,  0.5f, 0.0f, // Top Right	/__|
 
-	 0.5f,  0.5f, 0.0f, // Up Right
-	-0.5f,  0.5f, 0.0f, // Up Left
-	-0.5f, -0.5f, 0.0f, // Bottom Left
+	 0.5f,  0.5f, 0.0f, // Top Right	|--/
+	-0.5f,  0.5f, 0.0f, // Top Left		| /
+	-0.5f, -0.5f, 0.0f, // Bottom Left	|/
 };
 
 int main()
