@@ -1,1 +1,2 @@
 NOTE: i could'nt put vendor to here cuz it take a lot of time.
+NOTE2: in shader you can add setVec2 , setVec4 , setMat2 and setMat3 as u like !
