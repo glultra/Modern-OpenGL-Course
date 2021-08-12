@@ -14,7 +14,7 @@
 #define SCR_WIDTH 1000
 #define SCR_HEIGHT 800
 
-/*		We Will Draw a cube like this with 6 Rectangles
+/*		We will draw a Cube like this with 6 Rectangles
 			        #-----------#
 			       /|          /|
 			      #-----------# |
