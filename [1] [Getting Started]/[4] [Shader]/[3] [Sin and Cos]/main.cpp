@@ -144,7 +144,7 @@ int main()
 
 		glUniform1f(glGetUniformLocation(program, "xColor"), xValue); // Red
 		glUniform1f(glGetUniformLocation(program, "yColor"), yValue); // Green
-		glUniform1f(glGetUniformLocation(program, "zColor"), 1.0f);	  // Blue
+		glUniform1f(glGetUniformLocation(program, "zColor"), 1.0f);   // Blue
 
 		/* Render */
 		glClearColor(0.1f, 0.2f, 0.3f, 1.0f); // 0.0 - 1.0
