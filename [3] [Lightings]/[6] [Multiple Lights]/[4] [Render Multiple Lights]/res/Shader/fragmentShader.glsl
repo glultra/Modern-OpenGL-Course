@@ -66,6 +66,7 @@ vec3 CalSpotLight(SpotLight light, vec3 norm, vec3 fragpos, vec3 viewDir);
 void main()
 {
 	//Properties
+	// NOTE: all lights have the same norm and viewDir that's why it's both here
 	vec3 norm = normalize(normal);
 	vec3 viewDir = normalize(viewPos - fragPos);
 
