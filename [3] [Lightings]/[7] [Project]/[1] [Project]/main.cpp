@@ -385,6 +385,7 @@ int main()
 			{
 				for (int k = 0; k < 10; k++)
 				{
+					// We will set blocks like minecraft and we wannna make it to a hollow huge Maps with 10x10x10 cubes
 					if (i == 0 || i == 9 || j == 0 || j == 9 || k == 9)
 					{
 						// Model
