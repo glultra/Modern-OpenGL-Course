@@ -377,6 +377,8 @@ int main()
 		glActiveTexture(GL_TEXTURE1);
 		glBindTexture(GL_TEXTURE_2D, specularMap);
 
+		
+		// We Draw a map with three loop cuz we are rendering in 3D so each axies need a loop like (x -> i, y -> j, z -> k).
 		for (int i = 0; i < 10; i++)
 		{
 			for (int j = 0; j < 10; j++)
