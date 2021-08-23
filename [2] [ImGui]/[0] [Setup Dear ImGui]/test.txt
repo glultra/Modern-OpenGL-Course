@@ -1,12 +1,1 @@
-    	   /|\
-    	  / | \
-    	 /  |  \
-        /   |   \
-       /    |    \
-      /     |     \
-     /     / \     \
-    /    /     \    \
-   /   /         \   \
-  /  /             \  \
- / /                 \ \
- /_____________________\
+NOTE: as soon as possible everything will be here
