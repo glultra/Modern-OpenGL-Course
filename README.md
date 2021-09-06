@@ -9,3 +9,8 @@ Hey this is Modern OpenGL Course you can find all the codes here and take it to 
 3D ->
 ![3D cube' (2)](https://user-images.githubusercontent.com/77267002/132253017-cde7f62c-3f8f-4bcf-a834-688118a62fe0.png)
 ![3D pyramid (2)](https://user-images.githubusercontent.com/77267002/132253020-ec49dcec-f437-46b8-af5e-505fa844789f.png)
+Light and GUI ->
+![light around](https://user-images.githubusercontent.com/77267002/132253469-8c37b801-ad22-4ba5-81e1-53e7571a62e0.png)
+![light gui](https://user-images.githubusercontent.com/77267002/132253476-81755454-3dd1-491d-ba6d-8c4a8f50b9e1.png)
+Model ->
+![model](https://user-images.githubusercontent.com/77267002/132253483-e7682c00-f6a0-4bd7-a9f4-4d31d8564f1e.png)
